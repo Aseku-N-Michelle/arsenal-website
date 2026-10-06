@@ -1,0 +1,76 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.05rem;
+}
+
+h1, h2, h5, .navbar-brand, .yr, .num {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  color: #db0007;
+}
+
+.navbar {
+  background-color: #db0007 !important;
+}
+
+.table thead th {
+  background-color: #063672;
+  color: white;
+}
+
+/* hero banner */
+.hero {
+  background: linear-gradient(135deg, #db0007 60%, #063672);
+  color: white;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 5rem;
+}
+
+/* timeline */
+.timeline {
+  border-left: 4px solid #db0007;
+  margin-left: 8px;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.timeline li {
+  margin-bottom: 24px;
+}
+
+.yr {
+  font-size: 1.8rem;
+  color: #db0007;
+}
+
+/* NEW: big numbers */
+.stats .num {
+  font-size: 3rem;
+  color: #db0007;
+}
+
+/* NEW: cards with a red top line */
+.card {
+  border: 0;
+  border-top: 4px solid #db0007;
+  background: #f7f4ee;
+}
+
+/* NEW: navy buttons that turn red on hover */
+.btn-arsenal {
+  background: #063672;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-arsenal:hover {
+  background: #db0007;
+  color: white;
+}
